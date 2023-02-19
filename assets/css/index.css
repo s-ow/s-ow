@@ -1,0 +1,153 @@
+@font-face {
+    font-family: 'electronica_display_stencilRg';
+    src: url('font/electronica_display_stencil-webfont.woff2') format('woff2'),
+         url('font/electronica_display_stencil-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+  font-family: 'kionaregular';
+  src: url('font/kiona-regular-webfont.woff2') format('woff2'),
+       url('font/kiona-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+  margin: 0;
+}
+
+::selection{
+  background-color: rgb(179, 179, 204);
+  color: white;
+  }
+
+.conteneur{
+  z-index: 1000;
+  position: relative;
+}
+
+.pseudo{
+  font-family: 'electronica_display_stencilRg';
+  font-size: 100px;
+  font-weight: 100;
+  text-align: center;
+  padding-top: 10%;
+  margin-bottom:25px;
+  color:var(--titre);
+}
+
+.description{
+  text-align: center;
+  font-family: 'kionaregular';
+  color: var(--sous-titre);
+}
+
+/*====================================================links====================================================*/
+.links{
+  text-align: center;
+  padding-right: 2%;
+}
+
+ul.links li{
+  list-style-type: none;
+  display: inline-block;
+  padding: 0 0.5rem;
+  color:var(--description);
+}
+
+ul.links{
+  font-family: 'kionaregular';
+  display: flex;
+  justify-content: center;
+  column-gap: .75rem;
+  list-style: none;
+}
+
+.linl
+{
+    text-decoration: none;
+    color: var(--description);
+    background-image: linear-gradient(var(--ldescription), var(--ldescription));
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: 100% 2px;
+    transition: background-size .2s;
+}
+.linl:hover, .linl:focus
+{ 
+    background-size: 100% 100%;
+    color:lightgray;
+}
+
+
+/*===================================================footer icons=============================================*/
+.foot{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+  height: 10vh;
+}
+
+ul.icons {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+ul.icons li {
+  list-style: none;
+  margin: 0 5px;
+}
+
+ul.icons li a {
+  position: relative; 
+  display: block;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  line-height: 53px;
+  background: var(--lfond);
+  border-radius: 50%;
+  font-size: 30px;
+  color: var(--icon);
+  transition: .5s;
+}
+
+ul.icons li a::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: rgba(136, 246, 251, 0.585);
+  transition: .5s;
+  transform: scale(.9);
+  z-index: -1;
+}
+
+ul.icons li a:hover::before {
+  transform: scale(1.1);
+  box-shadow: 0 0 15px rgba(136, 246, 251, 0.585);
+}
+
+ul.icons li a:hover {
+  color: rgba(136, 246, 251, 0.585);
+  box-shadow: 0 0 5px rgba(136, 246, 251, 0.585);
+  text-shadow: 0 0 5px rgba(136, 245, 251, 0.585);
+}
