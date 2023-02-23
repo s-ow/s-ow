@@ -1,1 +1,1 @@
-⋅⋅⋅Salut, heureux qu'on se retrouve ici ! :wave:
+Salut, heureux qu'on se retrouve ici ! :wave:
