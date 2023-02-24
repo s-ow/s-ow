@@ -37,7 +37,7 @@ Salut, heureux qu'on se retrouve ici ! :wave:
 
 ## 🔬Travaux Importants
 [![Carte ReadMe](https://github-readme-stats.vercel.app/api/pin/?username=s-ow&repo=s-ow&theme=discord_old_blurple&hide_border=true&bg_color=343942)](https://github.com/s-ow/s-ow)
-[![Carte ReadMe](https://github-readme-stats.vercel.app/api/pin/?username=s-ow&repo=aoi.js-v6.1.1&theme=discord_old_blurple&hide_border=true&bg_color=343942)](https://github.com/s-ow/aoi.js/v6.1.1)
+[![Carte ReadMe](https://github-readme-stats.vercel.app/api/pin/?username=s-ow&repo=aoi.js-v6.1.1&theme=discord_old_blurple&hide_border=true&bg_color=343942)](https://github.com/s-ow/aoi.js-v6.1.1)
 
 ## 📈Statistiques GitHub
 
