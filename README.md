@@ -10,7 +10,7 @@ Salut, heureux qu'on se retrouve ici ! :wave:
 ```
 • Je m'appelle Sacha et j'ai 17ans.
 • Je suis au lycée dans une voie générale scientifique.
-• J'aime faire du sport, me balader et lire de la philo.
+• J'aime faire du sport.
 • J'aime bien discuter, si vous avez des questions ou voulez simplement parler n'hésitez pas !
 ```
 <h3 align="left">Langages et outils: </h3>
