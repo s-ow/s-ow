@@ -1,17 +1,10 @@
 Salut, heureux qu'on se retrouve ici ! :wave:
 
-## Mes informations
-
-- 🔭 Me contacter : [mon compte discord](https://discord.com/users/931326112598986912)
-- 🌱 Je développe mes projets en langage **aoi.js**, **html** ou **css**.
-- ⚙️ [Mon projet du moment](https://s-ow.github.io/s-ow/)
-
 ## Qui suis-je ?
 ```
 • Je m'appelle Sacha et j'ai 17ans.
 • Je suis au lycée dans une voie générale scientifique.
 • J'aime faire du sport.
-• J'aime bien discuter, si vous avez des questions ou voulez simplement parler n'hésitez pas !
 ```
 <h3 align="left">Langages et outils: </h3>
 <p align="left"> 
@@ -31,7 +24,10 @@ Salut, heureux qu'on se retrouve ici ! :wave:
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg" alt="vscode" width="40" height="40"/> 
   </a> 
   <a href="https://github.com/" target="_blank" rel="noreferrer"> 
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg" alt="vscode" width="40" height="40"/> 
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg" alt="github" width="40" height="40"/> 
+  </a> 
+  <a href="https://www.gnu.org/software/bash/manual/bash.html" target="_blank" rel="noreferrer"> 
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bash/bash-original.svg" alt="bash" width="40" height="40"/> 
   </a> 
 </p>
 
