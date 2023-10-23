@@ -7,24 +7,21 @@ function typeText() {
     if (charIndex < textArray[textIndex].length) {
         textElement.innerHTML += textArray[textIndex].charAt(charIndex);
         charIndex++;
-        setTimeout(typeText, 50); // Délai entre chaque caractère (ajustez selon vos préférences)
+        setTimeout(typeText, 50);
     } else {
-        // Efface le texte actuel
-        setTimeout(eraseText, 1000); // Temps d'affichage du texte avant effacement (1 seconde ici)
+        setTimeout(eraseText, 1000);
     }
 }
 
 function eraseText() {
     if (textElement.innerHTML.length > 0) {
         textElement.innerHTML = textElement.innerHTML.slice(0, -1);
-        setTimeout(eraseText, 50); // Délai entre chaque caractère pendant l'effacement
+        setTimeout(eraseText, 50);
     } else {
-        // Passe au texte suivant
-        textIndex = (textIndex + 1) % textArray.length; // Boucle à travers le tableau
+        textIndex = (textIndex + 1) % textArray.length;
         charIndex = 0;
-        setTimeout(typeText, 500); // Temps d'attente avant de commencer à taper le texte suivant (0,5 seconde ici)
+        setTimeout(typeText, 500);
     }
 }
 
-// Appelez la fonction pour commencer l'animation lorsque la page est chargée
 window.onload = typeText;
