@@ -1,4 +1,4 @@
-![](https://i.imgur.com/7XaXQoq.png)
+![](https://i.imgur.com/FsGLAD6.png)
 <!-- https://carbon.now.sh/ -->
 
 ---------
