@@ -3,8 +3,6 @@
 
 ---------
 
-# s-ow
-
 ![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=s-ow&theme=nord_dark)
 ![](https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=s-ow&utcOffset=+1&theme=nord_dark)
 ![](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=s-ow&theme=nord_dark)
